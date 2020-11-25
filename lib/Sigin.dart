@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-                Column(
+              Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget>[
@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
                         color: Colors.white54,
                       ),
                     ),
+
                     Text('EZY SCAN',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,

@@ -35,12 +35,14 @@ class _signupState extends State<signup> {
 
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.end,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               Row(
+                mainAxisAlignment:MainAxisAlignment.start ,
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
                  Padding(
-                  padding: const EdgeInsets.only(left: 10),
+                  padding: const EdgeInsets.only(left: 10,top: 10),
                   child: CircleAvatar(
                     child: Image.asset('Image/ezy-scan.png'),
                     radius: 50.0,
@@ -203,7 +205,7 @@ class _signupState extends State<signup> {
               ),
               GestureDetector(
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget>[
                    Container(
@@ -212,11 +214,13 @@ class _signupState extends State<signup> {
                       child: Text('CreateAccount',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 49.0,
+                        fontSize: 55.0,
                         color: Colors.white
                       ),
                       ),
                     ),
+                    margin: EdgeInsets.only(top: 20),
+                    padding: EdgeInsets.all(10),
                     width: double.infinity,
                      decoration: BoxDecoration(
                          color: Color(0xFF9bcd9b),

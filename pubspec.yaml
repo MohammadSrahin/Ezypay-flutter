@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.0
   animated_text_kit: ^2.5.4
   font_awesome_flutter: ^8.10.0
+  flutter_mobile_vision: ^0.1.4+1
+  flutter_barcode_scanner: any
 
 dev_dependencies:
   flutter_test:
